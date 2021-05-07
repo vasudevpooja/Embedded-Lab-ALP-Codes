@@ -19,4 +19,4 @@ Assembly Language Programs-Codes using Keil Software.
 
 9) Find the Largest/ Smallest Number in a given array;
 
-10)Arrange the given array of two numbers in ascending/descending order using bubble sorting.
+10) Arrange the given array of two numbers in ascending/descending order using bubble sorting.
