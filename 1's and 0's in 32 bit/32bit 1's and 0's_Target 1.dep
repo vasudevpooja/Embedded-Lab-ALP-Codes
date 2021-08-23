@@ -1,0 +1,2 @@
+Dependencies for Project '32bit 1's and 0's', Target 'Target 1': (DO NOT MODIFY !)
+F (.\onesandzeroes.asm)(0x60918611)(--cpu ARM9E --bi --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include--list .\onesandzeroes.lst --xref -o .\onesandzeroes.o --depend .\onesandzeroes.d)
