@@ -1,0 +1,67 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000                 AREA             ARMTHUMB, CODE, READONLY
+    2 00000000                 ENTRY
+    3 00000000                 ARM
+    4 00000000         START
+    5 00000000 E59F1018        LDR              R1, =thumb_code+1
+    6 00000004 E3A00A09        LDR              R0, =0x00009000
+    7 00000008 E5903000        LDR              R3, [R0]
+    8 0000000C E5908004        LDR              R8, [R0, #04]
+    9 00000010 E0435008        SUB              R5, R3, R8
+   10 00000014 E1A0E00F        MOV              LR, PC
+   11 00000018 E12FFF11        BX               R1
+   12 0000001C                 THUMB
+   13 0000001C         thumb_code
+   14 0000001C 4443            ADD              R3, R3, R8
+   15 0000001E 4770            BX               LR
+   16 00000020         AGAIN
+   17 00000020                 END
+              00000001 
+Command Line: --debug --xref --cpu=ARM9E --bi --apcs=interwork --depend=.\armth
+umb.d -o.\armthumb.o -IC:\Keil\ARM\RV31\INC -IC:\Keil\ARM\CMSIS\Include --prede
+fine="__EVAL SETA 1" --list=.\armthumb.lst ARMTHUMB.asm
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+AGAIN 00000020
+
+Symbol: AGAIN
+   Definitions
+      At line 16 in file ARMTHUMB.asm
+   Uses
+      None
+Comment: AGAIN unused
+ARMTHUMB 00000000
+
+Symbol: ARMTHUMB
+   Definitions
+      At line 1 in file ARMTHUMB.asm
+   Uses
+      None
+Comment: ARMTHUMB unused
+START 00000000
+
+Symbol: START
+   Definitions
+      At line 4 in file ARMTHUMB.asm
+   Uses
+      None
+Comment: START unused
+thumb_code 0000001C
+
+Symbol: thumb_code
+   Definitions
+      At line 13 in file ARMTHUMB.asm
+   Uses
+      At line 5 in file ARMTHUMB.asm
+Comment: thumb_code used once
+4 symbols
+337 symbols in table

@@ -1,0 +1,2 @@
+Dependencies for Project 'Arm_Thumb', Target 'Target 1': (DO NOT MODIFY !)
+F (.\ARMTHUMB.asm)(0x609504FC)(--cpu ARM9E --bi --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include--list .\armthumb.lst --xref -o .\armthumb.o --depend .\armthumb.d)

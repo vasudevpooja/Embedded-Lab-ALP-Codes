@@ -1,0 +1,1 @@
+.\armthumb.o: ARMTHUMB.asm
