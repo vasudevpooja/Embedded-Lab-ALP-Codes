@@ -1,0 +1,2 @@
+Dependencies for Project 'Ascending Descending-Bubble Sort', Target 'Target 1': (DO NOT MODIFY !)
+F (.\ascdsc.asm)(0x6092244C)(--cpu ARM9E --bi --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include--list .\ascdsc.lst --xref -o .\ascdsc.o --depend .\ascdsc.d)

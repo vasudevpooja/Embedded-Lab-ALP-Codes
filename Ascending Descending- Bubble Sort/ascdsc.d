@@ -1,0 +1,1 @@
+.\ascdsc.o: ascdsc.asm
