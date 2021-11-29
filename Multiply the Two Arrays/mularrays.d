@@ -1,0 +1,1 @@
+.\mularrays.o: mularrays.asm

@@ -1,0 +1,88 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000                 AREA             MULARRAYS,CODE,READONLY
+    2 00000000         ENTRY
+    3 00000000         START
+    4 00000000 E3A04000        LDR              R4,=0X00000000
+    5 00000004 E3A01902        LDR              R1,=0X00008000
+    6 00000008 E59F2028        LDR              R2,=0X00008020
+    7 0000000C E59F3028        LDR              R3,=0X0000800A
+    8 00000010 EB000001        BL               MULACC
+    9 00000014 E1C140B0        STRH             R4,[R1]
+   10 00000018 EAFFFFFE 
+                       AGAIN   B                AGAIN
+   11 0000001C E1A00000 
+                       MULACC  NOP
+   12 00000020 E0D150B2 
+                       BACK    LDRH             R5,[R1],#02
+   13 00000024 E0D260B2        LDRH             R6,[R2],#02
+   14 00000028 E0344596        MLAS             R4,R6,R5,R4
+   15 0000002C E1510003        CMP              R1,R3
+   16 00000030 1AFFFFFA        BNE              BACK
+   17 00000034 E12FFF1E        BX               LR
+   18 00000038                 END
+              00008020 
+              0000800A 
+Command Line: --debug --xref --cpu=ARM9E --bi --apcs=interwork --depend=.\mular
+rays.d -o.\mularrays.o -IC:\Keil\ARM\RV31\INC -IC:\Keil\ARM\CMSIS\Include --pre
+define="__EVAL SETA 1" --list=.\mularrays.lst mularrays.asm
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+AGAIN 00000018
+
+Symbol: AGAIN
+   Definitions
+      At line 10 in file mularrays.asm
+   Uses
+      At line 10 in file mularrays.asm
+Comment: AGAIN used once
+BACK 00000020
+
+Symbol: BACK
+   Definitions
+      At line 12 in file mularrays.asm
+   Uses
+      At line 16 in file mularrays.asm
+Comment: BACK used once
+ENTRY 00000000
+
+Symbol: ENTRY
+   Definitions
+      At line 2 in file mularrays.asm
+   Uses
+      None
+Comment: ENTRY unused
+MULACC 0000001C
+
+Symbol: MULACC
+   Definitions
+      At line 11 in file mularrays.asm
+   Uses
+      At line 8 in file mularrays.asm
+Comment: MULACC used once
+MULARRAYS 00000000
+
+Symbol: MULARRAYS
+   Definitions
+      At line 1 in file mularrays.asm
+   Uses
+      None
+Comment: MULARRAYS unused
+START 00000000
+
+Symbol: START
+   Definitions
+      At line 3 in file mularrays.asm
+   Uses
+      None
+Comment: START unused
+6 symbols
+339 symbols in table

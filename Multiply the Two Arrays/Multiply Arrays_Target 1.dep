@@ -1,0 +1,2 @@
+Dependencies for Project 'Multiply Arrays', Target 'Target 1': (DO NOT MODIFY !)
+F (.\mularrays.asm)(0x609221E3)(--cpu ARM9E --bi --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include--list .\mularrays.lst --xref -o .\mularrays.o --depend .\mularrays.d)
