@@ -1,0 +1,1 @@
+.\largesmall.o: largesmall.asm

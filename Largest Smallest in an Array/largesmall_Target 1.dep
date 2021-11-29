@@ -1,0 +1,2 @@
+Dependencies for Project 'largesmall', Target 'Target 1': (DO NOT MODIFY !)
+F (.\largesmall.asm)(0x6092232F)(--cpu ARM9E --bi --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include--list .\largesmall.lst --xref -o .\largesmall.o --depend .\largesmall.d)
