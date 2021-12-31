@@ -1,22 +1,19 @@
-# Embedded-Lab-ALP-Codes
-Assembly Language Programs-Codes using Keil Software.
+# Embedded-Lab-Codes
+Embedded C is the most popular programming language in the software field for developing electronic gadgets. Each processor is associated with embedded software. Embedded C Programming plays a major role in performing specific functions by the processor. In our day-to-day life, we frequently use many electronic devices such as washing machines, mobile phones, digital camera and so on will work based on microcontrollers that are programmed by embedded C. The embedded system is defined as the combination of embedded C programming software and hardware parts majorly consisting of microcontrollers and it is intended to perform the specific task. These types of embedded systems are being used in our daily life such as washing machines and video recorders, refrigerators and so on. The embedded system was first introduced by the 8051 microcontrollers.
 
-1) Block Transfer from Location A to Location B using LDR and STR;
+# Assembly Language Programs-Codes using Keil Software.
+Assembly languages were developed to provide mnemonics or symbols for the machine level code instructions. Assembly language programs consist of mnemonics, thus they should be translated into machine code. A program that is responsible for this conversion is known as assembler. Assembly language is often termed as a low-level language because it directly works with the internal structure of the CPU. To program in assembly language, a programmer must know all the registers of the CPU.Different programming languages such as C, C++, Java and various other languages are called high-level languages because they do not deal with the internal details of a CPU. In contrast, an assembler is used to translate an assembly language program into machine code (sometimes also called object code or opcode). Similarly, a compiler translates a high-level language into machine code. For example, to write a program in C language, one must use a C compiler to translate the program into machine language.
 
-2) Find GCD of two numbers;
+![alp](https://user-images.githubusercontent.com/76071184/147796305-a4f21418-6122-4b16-a079-2cac93e355f9.PNG)
 
-3) Addition of 2, 64 bit numbers;
-
-4) Addition of N, 32 bit number stored in memory;
-
-5) Counting Number of 1’s and 0’s in a 32 bit number; 
-
-6) Find a given Number is a 2 out of 5 code or not. If 2 out of 5 , store 0Xff else store 0x00; 
-
-7) Write a program to subtract 2 number in ARM state and Add 2 numbers in THUMB state using ARM to THUMB Interworking;
-
-8) Multiply and accumulate two arrays of numbers;
-
-9) Find the Largest/ Smallest Number in a given array;
-
-10) Arrange the given array of two numbers in ascending/descending order using bubble sorting.
+# Programs:
+1) [Block Transfer from Location A to Location B using LDR and STR](https://github.com/vasudevpooja/Embedded-Lab-ALP-Codes/blob/main/Block%20Transfer/Block%20Transfer.s)
+2) [Find GCD of two numbers](https://github.com/vasudevpooja/Embedded-Lab-ALP-Codes/blob/main/GCD/GCD.s)
+3) [Addition of 2, 64 bit numbers](https://github.com/vasudevpooja/Embedded-Lab-ALP-Codes/blob/main/Addition%20of%202-%2064%20bit/Addition%20of%202-%2064%20bit.s)
+4) [Addition of N, 32 bit number stored in memory](https://github.com/vasudevpooja/Embedded-Lab-ALP-Codes/blob/main/Addition%20of%20N%2032-bit/Addition%20of%20N%2032-bit.s)
+5) [Counting Number of 1’s and 0’s in a 32 bit number](https://github.com/vasudevpooja/Embedded-Lab-ALP-Codes/blob/main/1's%20and%200's%20in%2032%20bit/1's%20and%200's%20in%2032%20bit.s)
+6) [Find a given Number is a 2 out of 5 code or not. If 2 out of 5 , store 0Xff else store 0x00](https://github.com/vasudevpooja/Embedded-Lab-ALP-Codes/blob/main/Two%20out%20of%20Five/Two%20out%20of%20five.s)
+7) [Write a program to subtract 2 number in ARM state and Add 2 numbers in THUMB state using ARM to THUMB Interworking](https://github.com/vasudevpooja/Embedded-Lab-ALP-Codes/blob/main/Arm-Thumb/ARMTHUMB.s)
+8) [Multiply and accumulate two arrays of numbers](https://github.com/vasudevpooja/Embedded-Lab-ALP-Codes/blob/main/Multiply%20the%20Two%20Arrays/MULARRAYS.s)
+9) [Find the Largest/ Smallest Number in a given array](https://github.com/vasudevpooja/Embedded-Lab-ALP-Codes/blob/main/Largest%20Smallest%20in%20an%20Array/Largest%20Smallest%20in%20an%20Array.s)
+10)[Arrange the given array of two numbers in ascending/descending order using bubble sorting](https://github.com/vasudevpooja/Embedded-Lab-ALP-Codes/blob/main/Ascending%20Descending-%20Bubble%20Sort/ASCDSC.s)
